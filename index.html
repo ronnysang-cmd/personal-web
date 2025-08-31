@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1 class="main-title">Welcome to My Personal Website</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about" class="about-section">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a skilled front end and backend developer with proficiency in coding languages such as CSS, HTML, JavaScript, Python, C++, and frameworks like React, Node.js, and Django. I have a strong understanding of web development principles and best practices, and I am passionate about creating user-friendly and visually appealing websites and applications.
+                </p>
+            </section>
+            <section id="projects" class="projects-section">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-card">
+                    <h3 class="project-title">Spooky Antispyware</h3>
+                    <p class="project-desc">
+                        An app used to monitor all activities on a computer, preventing malware attacks and hacking. It also blocks installation of suspicious apps and recommends trustworthy alternatives.
+                    </p>
+                    <p class="project-stack"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">E-commerce Website</h3>
+                    <p class="project-desc">
+                        A full-featured e-commerce platform with secure transactions, product management, and user authentication. Built for scalability and a seamless user experience.
+                    </p>
+                    <p class="project-stack"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, React</p>
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <h2 class="section-title">Contact Me</h2>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>Connect with me:</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ronnysang" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ronny-sang/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p class="footer-credit">&copy; 2025 Ronny Sang. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
